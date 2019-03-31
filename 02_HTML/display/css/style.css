@@ -1,0 +1,44 @@
+.box{
+  width: 300px;
+  height:300px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 300px;
+}
+
+.block{
+  display: block;
+}
+
+.inline{
+  display: inline;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.none{
+  display: none;
+}
+
+.visibility-hidden{
+  visibility: hidden;
+}
+
+.spooky-word{
+  visibility: hidden;
+}
+
+.spooky span{
+  visibility: hidden;
+}
+.spooky:hover{
+  background-color: black;
+}
+
+.spooky:hover span{
+  visibility: visible;
+  color: yellow;
+  transition: 2s all;
+}
