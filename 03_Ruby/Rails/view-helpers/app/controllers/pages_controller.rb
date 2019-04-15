@@ -19,10 +19,9 @@ class PagesController < ApplicationController
 
   def assets
     render :assets
-end
+  end
 
-def url
+  def url
     render :url
-end
-
+  end
 end
