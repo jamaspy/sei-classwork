@@ -1,0 +1,1105 @@
+Started GET "/" for ::1 at 2019-04-15 12:08:42 +1000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jamesaspinall/.rvm/gems/ruby-2.6.2/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jamesaspinall/.rvm/gems/ruby-2.6.2/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (5.9ms)
+Completed 200 OK in 61ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 12:16:30 +1000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jamesaspinall/.rvm/gems/ruby-2.6.2/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jamesaspinall/.rvm/gems/ruby-2.6.2/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (5.9ms)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for ::1 at 2019-04-15 12:16:42 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/pages" for ::1 at 2019-04-15 12:17:38 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/index" for ::1 at 2019-04-15 12:17:44 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/index" for ::1 at 2019-04-15 12:18:10 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-04-15 12:18:16 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 321ms (Views: 320.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 12:18:34 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 12:18:43 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:23:37 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 12:23:44 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 12:24:36 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 12:24:40 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 12:24:53 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:24:59 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 12:25:00 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:25:01 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:26:12 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 12:26:15 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 12:26:41 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:26:43 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:26:58 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 12:27:01 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:27:03 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 12:27:05 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 12:27:59 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:28:03 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 12:28:04 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks/result" for ::1 at 2019-04-15 12:31:51 +1000
+Processing by StocksController#result as HTML
+  Rendering stocks/result.html.erb within layouts/application
+  Rendered stocks/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result" for ::1 at 2019-04-15 12:32:22 +1000
+Processing by BooksController#result as HTML
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result" for ::1 at 2019-04-15 12:36:45 +1000
+
+NameError - undefined local variable or method `params' for #<ActionDispatch::Routing::Mapper:0x00007f9cdbac3d00>:
+  config/routes.rb:6:in `block in <main>'
+  config/routes.rb:1:in `<main>'
+
+Started POST "/__better_errors/1097e6365fee1c1f/variables" for ::1 at 2019-04-15 12:36:45 +1000
+Started GET "/books/" for ::1 at 2019-04-15 12:36:52 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/?book_title=Harry+Potter" for ::1 at 2019-04-15 12:36:59 +1000
+Processing by BooksController#search as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/?book_title=Harry+Potter" for ::1 at 2019-04-15 12:38:32 +1000
+
+NameError - undefined local variable or method `params' for #<ActionDispatch::Routing::Mapper:0x00007f9cdc642280>:
+  config/routes.rb:6:in `block in <main>'
+  config/routes.rb:1:in `<main>'
+
+Started POST "/__better_errors/f9d2e5a9078ec993/variables" for ::1 at 2019-04-15 12:38:33 +1000
+Started GET "/books" for ::1 at 2019-04-15 12:38:39 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 898ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books?book_title=Dogs+On+Holiday" for ::1 at 2019-04-15 12:38:45 +1000
+Processing by BooksController#search as HTML
+  Parameters: {"book_title"=>"Dogs On Holiday"}
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 755ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books?book_title=Dogs+On+Holiday" for ::1 at 2019-04-15 12:40:09 +1000
+Processing by BooksController#search as HTML
+  Parameters: {"book_title"=>"Dogs On Holiday"}
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 873ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:40:15 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 724ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 12:40:19 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/books/result"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 12:40:48 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:41:25 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 812ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 12:41:35 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 12:43:47 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 12:43:51 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:43:54 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 884ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=1984" for ::1 at 2019-04-15 12:44:00 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"1984"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=1984" for ::1 at 2019-04-15 12:45:45 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"1984"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 332ms (Views: 323.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:45:49 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 807ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 12:45:52 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 12:47:47 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:47:50 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 825ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 12:48:13 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:49:46 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 12:49:52 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 12:49:56 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 805ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Raindrops" for ::1 at 2019-04-15 13:05:48 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Raindrops"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 823ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:08:29 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:09:27 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks/result?stock_symbol=GOOG" for ::1 at 2019-04-15 13:09:33 +1000
+Processing by StocksController#result as HTML
+  Parameters: {"stock_symbol"=>"GOOG"}
+  Rendering stocks/result.html.erb within layouts/application
+  Rendered stocks/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 810ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 13:10:34 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:10:36 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 13:10:56 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 35ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:10:57 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:14:51 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:14:54 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 13:14:56 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:14:57 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 13:14:58 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:15:05 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:15:27 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:15:55 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:16:15 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:17:31 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:17:43 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:19:27 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:19:43 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:20:03 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:20:28 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:20:50 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:21:14 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 13:21:26 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:21:30 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 13:21:32 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 59ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 13:21:35 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 791ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 13:21:51 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 628ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 13:22:07 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2175ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 13:22:23 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:22:30 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:22:51 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:23:02 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 13:23:14 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 13:23:21 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:23:24 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks/result?stock_symbol=GOOG" for ::1 at 2019-04-15 13:23:26 +1000
+Processing by StocksController#result as HTML
+  Parameters: {"stock_symbol"=>"GOOG"}
+  Rendering stocks/result.html.erb within layouts/application
+  Rendered stocks/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1615ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 13:23:53 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:23:54 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:24:15 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:24:34 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:56:56 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:57:01 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 13:57:03 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 13:57:23 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 13:57:23 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 114ms (Views: 113.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 13:57:27 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 685ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 14:00:15 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 52ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 14:00:18 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:00:19 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 14:00:20 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:00:21 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks/result?stock_symbol=GOOG" for ::1 at 2019-04-15 14:00:24 +1000
+Processing by StocksController#result as HTML
+  Parameters: {"stock_symbol"=>"GOOG"}
+  Rendering stocks/result.html.erb within layouts/application
+  Rendered stocks/result.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 780ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 14:03:38 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:03:39 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 14:03:40 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 14:03:40 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:03:41 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 14:03:41 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:04:00 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 40ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks/result?stock_symbol=GOOG" for ::1 at 2019-04-15 14:04:30 +1000
+Processing by StocksController#result as HTML
+  Parameters: {"stock_symbol"=>"GOOG"}
+  Rendering stocks/result.html.erb within layouts/application
+  Rendered stocks/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 915ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:04:33 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 14:04:33 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/result?book_title=Harry+Potter" for ::1 at 2019-04-15 14:04:35 +1000
+Processing by BooksController#result as HTML
+  Parameters: {"book_title"=>"Harry Potter"}
+  Rendering books/result.html.erb within layouts/application
+  Rendered books/result.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 680ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 14:05:34 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:05:35 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 14:05:36 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:07:32 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks/result?stock_symbol=GOOG" for ::1 at 2019-04-15 14:07:35 +1000
+Processing by StocksController#result as HTML
+  Parameters: {"stock_symbol"=>"GOOG"}
+  Rendering stocks/result.html.erb within layouts/application
+  Rendered stocks/result.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 819ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 14:18:41 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 140ms (Views: 138.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:19:21 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 14:19:22 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 14:19:23 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for ::1 at 2019-04-15 14:19:24 +1000
+Processing by BooksController#search as HTML
+  Rendering books/search.html.erb within layouts/application
+  Rendered books/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-04-15 14:23:36 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:23:48 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks" for ::1 at 2019-04-15 14:24:31 +1000
+Processing by StocksController#search as HTML
+  Rendering stocks/search.html.erb within layouts/application
+  Rendered stocks/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks/result?stock_symbol=GOOG" for ::1 at 2019-04-15 14:24:36 +1000
+Processing by StocksController#result as HTML
+  Parameters: {"stock_symbol"=>"GOOG"}
+  Rendering stocks/result.html.erb within layouts/application
+  Rendered stocks/result.html.erb within layouts/application (57.2ms)
+Completed 200 OK in 1686ms (Views: 72.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks/result?stock_symbol=GOOG" for ::1 at 2019-04-15 14:24:45 +1000
+Processing by StocksController#result as HTML
+  Parameters: {"stock_symbol"=>"GOOG"}
+  Rendering stocks/result.html.erb within layouts/application
+  Rendered stocks/result.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 753ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stocks/result?stock_symbol=GOOG" for ::1 at 2019-04-15 14:25:19 +1000
+Processing by StocksController#result as HTML
+  Parameters: {"stock_symbol"=>"GOOG"}
+  Rendering stocks/result.html.erb within layouts/application
+  Rendered stocks/result.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 841ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+

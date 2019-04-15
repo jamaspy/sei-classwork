@@ -1,44 +1,29 @@
-.box{
-  width: 300px;
-  height:300px;
-  border: 1px solid black;
-  text-align: center;
-  line-height: 300px;
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  background: #16222A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: monofur,monospace;
+  color: #ccc
 }
 
-.block{
-  display: block;
+/* .tag-wrap {
+  -webkit-filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+          filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
 
-.inline{
-  display: inline;
+.tag-wrap:hover {
+  -webkit-filter: drop-shadow(-1px 6px 3px rgba(150, 150, 0, 0.5));
+          filter: drop-shadow(-1px 6px 3px rgba(150, 150, 0, 0.5));
 }
-
-.inline-block{
-  display: inline-block;
-}
-
-.none{
-  display: none;
-}
-
-.visibility-hidden{
-  visibility: hidden;
-}
-
-.spooky-word{
-  visibility: hidden;
-}
-
-.spooky span{
-  visibility: hidden;
-}
-.spooky:hover{
-  background-color: black;
-}
-
-.spooky:hover span{
-  visibility: visible;
-  color: yellow;
-  transition: 2s all;
-}
+.tag {
+  background: #FB8C00;
+  color: white;
+  padding: 2rem 3rem 2rem 4rem;
+  font: bold 32px system-ui;
+  -webkit-clip-path: polygon(30px 0%, 100% 0%, 100% 100%, 30px 100%, 0 50%);
+          clip-path: polygon(30px 0%, 100% 0%, 100% 100%, 30px 100%, 0 50%);
+} */
