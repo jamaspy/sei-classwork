@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tunr</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+      <%= link_to "Home", root_path %>
+      <% if @current_user.present? %>
+      <% if @current_user.admin?%>
+        <%= link_to "all Users", users_path %>
+      <% end %>
+      <%= link_to "Sign Out #{ @current_user.email}", login_path, :method => "delete" %>
+      <% else%>
+      <%= link_to "Sign In", login_path %>
+      <%= link_to "SignUp", new_user_path %>
+      <% end %>
+    <%= yield %>
+  </body>
+</html>
