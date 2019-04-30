@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monofur, monospace;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.616);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+
+#images {
+
+    text-align: center;
+}
+
+img {
+    margin: 10px 10px;
+    border-radius: 10px;
+}
