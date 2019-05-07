@@ -50,7 +50,7 @@ class FlickrSearch extends Component {
     }
 }
 
-const Image = (props) => <img src= { props.url } width="150" height="150" alt={this.props.url} />
+const Image = (props) => <img src= { props.url } width="150" height="150" alt="This is a piccy from Flickr" />
 
 const Gallery = (props) => {
     return (
