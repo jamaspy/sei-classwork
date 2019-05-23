@@ -1,0 +1,6 @@
+.container{
+    max-width: 600px;
+    margin: 3em auto;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

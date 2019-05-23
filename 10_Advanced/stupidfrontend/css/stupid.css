@@ -1,0 +1,37 @@
+body{
+    min-height: 300vh;
+    background-image: url(http://www.placekitten.com/1024/1025);
+    background-size: cover;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 1em;
+    font-size: 140%; 
+}
+
+.bill-css{
+    height: 10em;
+    background-image: url(http://fillmurray.com/900/1200);
+    background-attachment: fixed;
+    display: none;
+
+}
+
+.bill-js{
+    height: 10em;
+    background-image: url(http://fillmurray.com/900/1200);
+    background-size: cover;
+}
+
+.bubble{
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    opacity: 0.5;
+}
