@@ -1,0 +1,5 @@
+class FruitsController < ApplicationController
+
+    
+
+end
