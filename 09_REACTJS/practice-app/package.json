@@ -4,9 +4,12 @@
   "private": true,
   "homepage": "https://jamaspy.github.io/kahootz_client/",
   "dependencies": {
+<<<<<<< HEAD
+=======
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
+>>>>>>> dbf819487b378cfe7185773f70e96d2ec8e89bb7
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

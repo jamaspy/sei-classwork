@@ -1,10 +1,12 @@
 import React from 'react';
-import Clickr from "./Clickr"
+import logo from './logo.svg';
+import './App.css';
+import LeaderBoard from './Leaderboard'
+
 function App() {
   return (
     <div className="App">
-      <Clickr />
-      
+      <LeaderBoard />
     </div>
   );
 }

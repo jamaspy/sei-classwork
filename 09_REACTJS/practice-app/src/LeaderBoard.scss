@@ -1,0 +1,178 @@
+$color-black: #424242; 
+$color-grey: #c7c7c7;
+$color-white: #ffffff;
+
+$color-yellow-light: #edde5d;
+$color-yellow-dark:#f09819;
+$color-red-light: #ffedbc ;
+$color-red-dark: #ed4264;
+$color-blue-light: #24c6dc;
+$color-blue-dark:#514a9d;
+$color-green-light:#71b280;
+$color-green-dark:#134e5e;
+
+$gradient-answer-red: linear-gradient(
+    to right bottom,
+    $color-red-light 0%,
+    $color-red-dark 100%
+  );
+
+$timer-color-light: #e55d87;
+$timer-color-dark: #5fc3e4;
+
+.display {
+    transition: all 0.4s;
+    
+}
+
+.podium__header {
+    text-align: center;
+    width: 100vw;
+    color: $color-white;
+    padding: 10px;
+    height: 100px;
+    font-size: 30px;
+    position: relative;
+    background-image: linear-gradient(to right bottom, $color-blue-light 0%, $color-blue-dark 100%);
+}
+
+.podium {
+    position: absolute;
+    bottom: 0;
+    left: 15vw;
+    &__first {
+        animation: createBox 1s;
+        background:
+            radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #e9e99a 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+        height: 500px;
+        width: 300px;
+        display: inline-block;
+        border-radius: 10px 10px 0 0;
+        position: relative;
+
+        &--player {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 60px;
+            text-align: center;
+            color: $color-white;
+            text-shadow: 1px 1px 1px $color-black;
+        }
+
+        &--place {
+            position: absolute;
+            bottom: 40px;
+            left: 100px;
+            border: 2px solid $color-white;
+            font-size: 40px;
+            text-align: center;
+            color: $color-white;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            box-shadow: 1px 1px 1px $color-black;
+
+            & p {
+                margin-top: 20px;
+                text-shadow: 1px 1px 1px $color-black;
+            }
+        }
+    }
+
+    &__second {
+        animation: createBox 1s;
+        background-image: radial-gradient(ellipse farthest-corner at left top, #cfcfcf 0%, #747474 8%, #9b9b9b 25%, #525252 62.5%, #3a3a3a 100%);
+        height: 375px;
+        width: 300px;
+        display: inline-block;
+        border-radius: 10px 0 0 0;
+        position: relative;
+
+        &--player {
+            position: absolute;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 60px;
+            text-align: center;
+            color: $color-white;
+            text-shadow: 1px 1px 1px $color-black;
+        }
+
+        &--place {
+            position: absolute;
+            bottom: 40px;
+            left: 100px;
+            border: 2px solid $color-white;
+            font-size: 40px;
+            text-align: center;
+            color: $color-white;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            box-shadow: 1px 1px 1px $color-black;
+
+            & p {
+                margin-top: 20px;
+                text-shadow: 1px 1px 1px $color-black;
+            }
+        }
+    }
+
+    &__third {
+        animation: createBox 1s;
+        background-image: radial-gradient(ellipse farthest-corner at left top, #cab89f 0%, #aa8b5f 8%, #a38a67 25%, #5d4a1f 62.5%, #948775 100%);
+        height: 300px;
+        width: 300px;
+        display: inline-block;
+        border-radius: 0 10px 0 0;
+        position: relative;
+
+        &--player {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 60px;
+            text-align: center;
+            color: $color-white;
+            text-shadow: 1px 1px 1px $color-black;
+        }
+
+        &--place {
+            position: absolute;
+            bottom: 40px;
+            left: 100px;
+            border: 2px solid $color-white;
+            font-size: 40px;
+            text-align: center;
+            color: $color-white;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            box-shadow: 1px 1px 1px $color-black;
+
+            & p {
+                margin-top: 20px;
+                text-shadow: 1px 1px 1px $color-black;
+            }
+        }
+    }
+}
+
+@keyframes createBox {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+
+
