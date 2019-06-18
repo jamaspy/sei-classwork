@@ -1,0 +1,27 @@
+
+.canvas{
+    margin-top: 20px;
+}
+.swatch{
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+
+.swatch.selected{
+    box-shadow: 0 0 10px grey;
+    transition: all .3s;
+    transform: scale(1.1);
+}
+.pixel{
+    float: left;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: 1px solid pink;
+}
+

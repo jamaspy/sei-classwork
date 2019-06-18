@@ -22,7 +22,7 @@ class Counter extends React.Component {
     render() {
       return (
         <div>
-          Seconds: {this.state.seconds}
+          <h1> Seconds: {this.state.seconds}</h1>
         </div>
       );
     }
